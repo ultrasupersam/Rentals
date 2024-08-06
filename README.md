@@ -6,9 +6,9 @@ git push -u origin master
     and the repository exists.
 
 
-/Users/sam_zyxe/.ssh
-ssh-add sam_zyxe
+/Users/sam_zyxe/.ssh<br>
+ssh-add sam_zyxe<br>
     Identity added: sam_zyxe (sam_zyxe@yahoo.com)
 
-ssh -T git@github.com
+ssh -T git@github.com<br>
     Hi ultrasupersam! You've successfully authenticated, but GitHub does not provide shell access.
