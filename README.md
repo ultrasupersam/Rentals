@@ -78,3 +78,6 @@ done
 
 ### Customization:
 You can adjust this README for additional details, like adding the specific instructions for working with WordPress if needed. Let me know if you want that!
+
+
+python3 -m http.server
