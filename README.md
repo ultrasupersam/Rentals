@@ -81,3 +81,44 @@ You can adjust this README for additional details, like adding the specific inst
 
 
 python3 -m http.server
+
+
+
+✅ 1. Are you in the right folder?
+
+python3 -m http.server serves files from the current directory. Make sure you're inside the folder that contains your index.html.
+
+Example:
+
+cd /home/x/apps/cottage_site
+python3 -m http.server 8000
+
+✅ 2. Try specifying the port (default is 8000)
+
+If something else is already using port 8000, try a different one:
+
+python3 -m http.server 8081
+
+✅ 3. Check for errors
+
+Does it give an error when you run it? Paste the error here if so.
+✅ 4. Try accessing it
+
+Open your browser and visit:
+
+http://localhost:8000
+
+Or if you're accessing it remotely:
+
+http://your.server.ip:8000
+
+Make sure the port is open in your firewall or cloud provider (e.g., AWS, DigitalOcean, etc.).
+
+Would you like me to help you check what’s running on that port or kill anything blocking it?
+You said:
+i was in the wrong directory
+ChatGPT said:
+
+Ahh, classic! 😅 Happens to the best of us.
+
+Now that you're in the right directory, is python3 -m http.server working as expected?
